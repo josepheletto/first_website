@@ -1,0 +1,230 @@
+<h1>INTRODUCTION TO PROGRAMMING</h1>
+<div class="unit">
+  <h2>The Basics</h2>
+  <article>
+    <h3>What Makes the Web?</h3>
+    <div class="content-text">
+      The web is made up of:
+      <ul>
+        <li>HTML (HyperText Markup Language), which "glues" everything together</li>
+        <li>URLs</li>
+        <li>HTTP (HyperText Transfer Protocol)</li>
+        <li>Web Applications</li>
+      </ul>
+      Hyperlinks serve as the glue holding together all pages of the web. Many types of files can be found on the web, including Plain Text, HTML, Images, Videos, and Music.
+    </div>
+  </article>
+  <article>
+    <h3>Major Pieces of the Web</h3>
+    <div class="content-text">
+      How It Works
+    </div>
+    <div class="flowchart">
+      <div class="flowchart-item">
+        <b>You</b>
+        <br>(+ Computer/Browser), who make requests via...
+      </div>
+      <div class="flowchart-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Right_arrow.svg" alt="rightarrow" height="20" width="20">
+      </div>
+      <div class="flowchart-item">
+        <b>The Internet</b>
+        <br>to...</div>
+      <div class="flowchart-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Right_arrow.svg" alt="rightarrow" height="20" width="20">
+      </div>
+      <div class="flowchart-item">
+        <b>Servers</b>
+        <br>using a protocol named HTTP
+      </div>
+    </div>
+    <div class="content-text">
+      These "talk" to one another via HTML. <b>HTML</b> is comprised of:
+      <ul>
+        <li>Text Content</li>
+        <li>Markup (Tags)</li>
+        <li>References</li>
+        <li>Links to other Pages</li>
+      </ul>
+    </div>
+  </article>
+  <article>
+    <h3>Dictionary for "The Basics"</h3>
+    <div class="content-text">
+      <b>Tags:</b> Tags <em>modify</em> content. Here are some examples:
+      <ul>
+        <li>Bold &lt;b&gt; + content + &lt;/b&gt;</li>
+        <li>Italics &lt;em&gt; + content + &lt;/em&gt;</li>
+        <li>Links &lt;a href="value"&gt; + content + &lt;/a&gt;. Note that this uses "href."</li>
+        <li>Images &lt;img src="url" alt="text"&gt; + content. Note that this uses "src."</li>
+        <li>Break &lt;br&gt; which ends lines</li>
+        <li>Paragraph &lt;p&gt; which makes text blocks</li>
+      </ul>
+      <p>
+        <b>Element:</b> Everything within a set of tags.
+      </p>
+      <p>
+        <b>Attribute:</b> Property of an HTML Element.
+      </p>
+      <p>
+        <b>White Space:</b> Text that takes up multiple lines while typing code will show as one line on a webpage unless broken up with tags.
+      </p>
+      <b>Inline Element:</b> An element that exist on the line, should space allow. These include:
+      <ul>
+        <li>&lt;b&gt;, for <b>bold</b></li>
+        <li>&lt;em&gt;, for emphasis or <em>italics</em></li>
+        <li>&lt;img&gt;, for images</li>
+        <li>&lt;a&gt;, the anchor tag</li>
+        <li>&lt;span&gt;, used to group elements and can be used to apply unique style</li>
+        <li>&lt;br&gt;, for line breaks</li>
+        <li>&lt;strong&gt; defines <strong>important</strong> text and can take the place of &lt;b&gt;</li>
+      </ul>
+      <b>Block Element</b>: An element that forms a block around the content included within the tag.
+      <ul>
+        <li>&lt;p&gt;, for paragraphs</li>
+        <li>&lt;div&gt;, to make divisions, or boxes</li>
+        <li>&lt;form&gt;, to create an HTML form</li>
+      </ul>
+    </div>
+  </article>
+</div>
+
+<div class="unit">
+  <h2>Document Structure</h2>
+  <article>
+    <h3>HTML vs CSS</h3>
+    <div class="content-text">
+      <ul>
+        <li>HTML and CSS are both languages</li>
+        <li>HTML controls the structure of a page</li>
+        <li>CSS controls the style of a page</li>
+        <li>DOM references a "Tree-Like Structure"</li>
+        <li>HTML refers to Tags, while CSS is the style</li>
+      </ul>
+    </div>
+  </article>
+  <article>
+    <h3>Dictionary for "Document Structure"</h3>
+    <div class="content-text">
+      <p>
+        <b>Tree-Like Structures:</b> How broswers classify HTML. This is what developers talk about when they refer to "DOM," the Document Object Model.
+      </p>
+      <p>
+        <b>Scratchpad:</b> A program where the speed of feedback is immediate, the ease of use would be considered <em><span style="color:green">beginner</span></em>, where it is impossible to share your work, the "power" it has is quite low, and its
+        languages are limited to HTML and CSS.
+      </p>
+      <p>
+        <b>Codepen:</b> A program where t speed of feedback takes 2-3 seconds, the ease of use would be considered <em><span style="color:orange">intermediate</span></em>, where it is easy to share your work, if you have an account, the "power" it has
+        is quite high, and it supports 3 languages.
+      </p>
+      <p>
+        <b>Sublime:</b> A program where feedback is given once the page is refreshed, the ease of use would be considered <em><span style="color:red">expert</span></em>, where it is difficult to share your work, the "power" it has is the highest, and
+        it supports all languages.
+      </p>
+    </div>
+  </article>
+</div>
+
+
+<div class="unit">
+  <h2>Adding Style</h2>
+  <article>
+    <h3>A How-To:</h3>
+    <div class="content-text">
+      First, prep the document to make sure it will respond to the following changes:
+      <ol>
+        <li>Add &lt;!DOCTYPE html&gt; to the top of the file</li>
+        <li>Add &lt;html&gt; directly below this tag</li>
+        <li>Add &lt;/html&gt; below the final tag in the file</li>
+        <li>Indent the HTML structure within HTML tags</li>
+        <li>Add &lt;head&gt; &lt;/head&gt; below &lt;html&gt;</li>
+        <li>Add &lt;link rel="stylesheet" type="text/css" href=""&gt; and add the name of the CSS file after href</li>
+        <li>Add &lt;body&gt; &lt;/body&gt; tag and move HTML structure within &lt;body&gt; tags </li>
+      </ol>
+      Then, you will write two files:
+      <ul>
+        <li>main.html</li>
+        <li>main.css</li>
+      </ul>
+    </div>
+  </article>
+  <article>
+    <h3>Modifiers</h3>
+    <div class="flowchart-item2">
+      <b>Standard Element Modifier</b>
+      <br>
+      <br>p {
+      <br>[pertinent styling]
+      <br>}
+    </div>
+    <div class="flowchart-item2">
+      <b>ID Modifier</b>
+      <br>
+      <br>#id_name {
+      <br>[pertinent styling]
+      <br>}
+    </div>
+    <div class="flowchart-item2">
+      <b>Class Modifier</b>
+      <br>
+      <br>.class_name {
+      <br>[pertinent styling]
+      <br>}
+    </div>
+    </span>
+  </article>
+  <article>
+    <h3>Where Does Style Go?</h3>
+    <div class="content-text">
+      Style can go in one of two places:
+      <ul>
+        <li>In it's own file</li>
+        <li>Within &lt;head&gt; tags</li>
+      </ul>
+    </div>
+  </article>
+  <article>
+    <h3>The Box Model</h3>
+    <div class="content-text">
+      The internet is made up of boxes. &lt;div&gt; tags produce four unique boxes:
+      <ul>
+        <li><b>Content:</b> image or text</li>
+        <li><b>Padding:</b> clears the area around the content. The space inside of the box that protects the content directly. For further review, click <a href="http://www.w3schools.com/css/css_padding.asp">here</a></li>
+        <li><b>Border:</b> goes around the above to boxes. Color proprerties inherited from the box properties. For further review, click <a href="http://www.w3schools.com/css/css_border.asp">here</a></li>
+        <li><b>Margin:</b> which is not affected by any background colors. "Space between boxes." For further review, click <a href="http://www.w3schools.com/css/css_margin.asp">here</a></li>
+      </ul>
+      The Border + Padding + Content widths = the size of the element. To get boxes to show as adjacent on the webpage, you must:
+      <ul>
+        <li>Make sure the widths are less than 100% the size of the page</li>
+        <li>Input display: flex into the appropriate style</li>
+      </ul>
+    </div>
+  </article>
+  <article>
+    <h3>Code, Test, & Refine</h3>
+    <div class="content-text">
+      Coding has a good amount of trial and error built into the process. Considering this, here's a guide on how to code efficiently.
+      <ul>
+        <li>Look for natural boxes</li>
+        <li>Look for repeated style and semantic elements</li>
+        <li>Write your HTML</li>
+        <li>Apply styles (from biggest to smallest)</li>
+        <li>Fix things</li>
+        <li>Repeat the above three steps until the website looks like the design mock-up</li>
+      </ul>
+    </div>
+  </article>
+  <article>
+    <h3>Dictionary for "Adding Style"</h3>
+    <div class="content-text">
+      <p>
+        <b>Specificity:</b> The most specific rule applies to all levels.
+      </p>
+      <p>
+        <b>Repetition:</b> In order to cut down on errors, superfluous code, and to keep editing as practical as possible, think of coding as "less is more." For instance, instead of using the &lt;span&gt; tag to style each individual element, consider
+        making groups, or "classes," to make things uniform. That way, should you need to edit the style of your document's headers, you can do so in your CSS file without having to go through your HTML to find each iteration of the aforementioned &lt;span&gt;
+        tag.
+    </div>
+  </article>
+</div>
+<div class="author"><em>All notes by Joe Eletto</em></div>
